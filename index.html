@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueños Valenti</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navfixed">
+            <ul class="color">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/sesiones.html">Sesiones</a></li>
+            </ul>
+        </nav>
+        <section class="top left">
+            <a class="top-nosotros" href="/nosotros.html">Nosotros</a>
+            <a class="top-contacto" href="/contacto.html">Contacto</a>
+        </section>
+        <section class="top right">
+            <div><span id="globoUnidades">0</span></div>
+            <a id="cart" href="#"><img class="cart" src="img/cart-fill.svg" alt="Carrito"></a>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="bg inicio">
+            <div id="container">
+                <div class="content">
+
+                    <div id="home">
+                        <h1>Sueños Valenti</h1>
+                        <h2>Sesiones grupales para conectar con tu supraconciencia</h2>
+                    </div>
+
+                    <div class="carrito" id="carrito">
+                        <h2>Carrito</h2>
+                        <ul id="listaCarrito" class="list"></ul>
+                        <div class="cart-summary">
+                            <span id="txtUnidades">0 ud</span>
+                            <strong id="txtTotal">0.00 €</strong>
+                        </div>
+                        <div>
+                            <button id="vaciar-carrito" class="btn">Vaciar carrito</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

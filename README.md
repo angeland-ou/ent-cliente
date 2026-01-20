@@ -1,5 +1,5 @@
 
-# Proyecto Entorno Servidor 01
+# Proyecto Entorno Cliente 01
 
 Este proyecto es una plataforma de reserva de sesiones espirituales del lado del cliente. La aplicación permite a los usuarios navegar por la meditación grupal y las sesiones espirituales, agregarlas a un carrito de compras y acceder a la información de contacto para reservar.
 

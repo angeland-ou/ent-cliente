@@ -332,9 +332,6 @@ div#container:has(.sesiones) {
     border-radius: var(--radius-small);
     position: relative; 
     animation: slideInFromLeft ease-in-out forwards;
-    animation-timeline: scroll();
-    animation-timeline: view();
-   animation-range: entry;
 }
 
 .block .row {
@@ -348,9 +345,6 @@ div#container:has(.sesiones) {
 
 .block:has(.row.reverse){
     animation: slideInFromRight ease-in-out forwards;
-    animation-timeline: scroll();
-    animation-timeline: view();
-   animation-range: entry;
 }
 
 .block .content-inner-left,

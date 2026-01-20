@@ -422,10 +422,10 @@ div#container:has(.sesiones) {
 }
 
 @keyframes slideInFromLeft {
-  from {
+  0% {
     transform: translateX(-100%);
   }
-  to {
+  50% {
     transform: translateX(0);
     opacity: 1;
   }
@@ -436,7 +436,7 @@ div#container:has(.sesiones) {
     transform: translateX(100%);
     opacity: 0;
   }
-  100% {
+  50% {
     transform: translateX(0);
     opacity: 1;
   }
